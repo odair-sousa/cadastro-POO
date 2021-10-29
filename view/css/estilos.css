@@ -1,0 +1,96 @@
+.bg {
+    background-image: url("../img/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form {
+    width: 300px;
+    margin: auto;
+    position: relative;
+    background: #49e3ff !important;
+    margin: 100px auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.24);
+}
+
+.login input {
+    background: #ffff;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    background: #FFC107;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form .novo a {
+    color: #FFC107;
+    
+}
+
+/*inicio do css da página de cadastro*/
+/* 
+.fundo {
+    background-image: url("../img/cadastro2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.fundo {
+    background-image: url("../img/taverna.jpg");
+}
+
+.titulo {
+    text-align: center;
+    background-color: #cca978;
+    margin-top: 0.5em;
+}
+
+.cadastro {
+    text-align: center;
+    
+}
+
+.cadastro {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    margin: 100px auto 100px;
+    
+    padding: 45px;
+    background: rgba(212, 215, 218, 0.7);
+    text-align: center;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.24);
+}
+
+.cadastro input {
+    padding: 2%;
+    margin: 0 0 5%;
+    
+}
+
+.cad {
+    background: #FFC107;
+    width: 8em;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+
