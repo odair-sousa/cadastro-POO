@@ -2,12 +2,12 @@
 
 require_once 'config.php';
 
-class Home extends Config{
+class Home extends config{
 
-    public function __contruct(){
+    public function __construct(){
         parent::__construct();
 
-        $this->smarty->display('..view/home.tpl');
+        $this->smarty->display('../view/home.tpl');
     }
 
 }

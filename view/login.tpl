@@ -12,15 +12,16 @@
         <script type="text/javascript" src="../view/scripts.js"></script>
     </head>
     <body class="bg">
-        <div  class="form">
-            <form class="login">
-                <input type="text" placeholder="usuario" required>
-                <input type="password" placeholder="senha" required>
+        <div class="form">
+            <form method="POST" class="login">
+                <input type="text" name="usuario" placeholder="usuario" >
+                <input type="password" name="senha" placeholder="senha" >
+                <input type="hidden" name="acao" value="entrar">
                 <button>Entrar</button>
-                <p class="novo">Ainda não possui cadastro?
-                    <a href="cadastro.php">Crie uma conta!</a>
-                </p>
             </form>
+            <p class="novo">Ainda não possui cadastro?
+                    <a href="jogador_cadastro.php">Crie uma conta!</a>
+            </p>
         </div>
     </body>
 </html>

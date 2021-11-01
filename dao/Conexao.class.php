@@ -6,7 +6,7 @@ class Conexao{
 
     public function __construct(){
 
-        $user = "root";
+        $user = "admin";
         $password = "255248";
 
         try{

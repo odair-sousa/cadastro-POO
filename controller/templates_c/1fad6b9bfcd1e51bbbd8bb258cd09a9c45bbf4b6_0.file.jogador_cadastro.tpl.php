@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.0-rc.0, created on 2021-10-28 21:44:19
+/* Smarty version 4.0.0-rc.0, created on 2021-10-29 22:52:00
   from '/var/www/wise/rpg/view/jogador_cadastro.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0-rc.0',
-  'unifunc' => 'content_617b43e371e6b4_77187322',
+  'unifunc' => 'content_617ca540322bb8_64790477',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1fad6b9bfcd1e51bbbd8bb258cd09a9c45bbf4b6' => 
     array (
       0 => '/var/www/wise/rpg/view/jogador_cadastro.tpl',
-      1 => 1635463422,
+      1 => 1635555958,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_617b43e371e6b4_77187322 (Smarty_Internal_Template $_smarty_tpl) {
+function content_617ca540322bb8_64790477 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="pt-br">
   <head>

@@ -2,7 +2,7 @@
 
 require_once "Conexao.class.php";
 
-class ClienteDAO extends Conexao{
+class JogadorDAO extends Conexao{
 
     public function __contruct(){
         parent::__construct();

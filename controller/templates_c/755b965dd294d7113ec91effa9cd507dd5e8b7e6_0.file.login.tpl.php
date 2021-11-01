@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.0-rc.0, created on 2021-10-28 21:38:27
+/* Smarty version 4.0.0-rc.0, created on 2021-10-29 23:44:13
   from '/var/www/wise/rpg/view/login.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0-rc.0',
-  'unifunc' => 'content_617b4283a67066_51528899',
+  'unifunc' => 'content_617cb17de99808_73817894',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '755b965dd294d7113ec91effa9cd507dd5e8b7e6' => 
     array (
       0 => '/var/www/wise/rpg/view/login.tpl',
-      1 => 1635467902,
+      1 => 1635561848,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_617b4283a67066_51528899 (Smarty_Internal_Template $_smarty_tpl) {
+function content_617cb17de99808_73817894 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
     <head>
@@ -39,15 +39,16 @@ function content_617b4283a67066_51528899 (Smarty_Internal_Template $_smarty_tpl)
 >
     </head>
     <body class="bg">
-        <div  class="form">
-            <form class="login">
-                <input type="text" placeholder="usuario" required>
-                <input type="password" placeholder="senha" required>
+        <div class="form">
+            <form method="POST" class="login">
+                <input type="text" name="usuario" placeholder="usuario" >
+                <input type="password" name="senha" placeholder="senha" >
+                <input type="hidden" name="acao" value="entrar">
                 <button>Entrar</button>
-                <p class="novo">Ainda não possui cadastro?
-                    <a href="cadastro.php">Crie uma conta!</a>
-                </p>
             </form>
+            <p class="novo">Ainda não possui cadastro?
+                    <a href="jogador_cadastro.php">Crie uma conta!</a>
+            </p>
         </div>
     </body>
 </html>
