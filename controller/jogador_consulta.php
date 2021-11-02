@@ -6,7 +6,7 @@ class JogadorConsulta extends Config{
 
     public function __construct(){
         parent::__construct();
-            $this->smarty->display('../view/jogadores_consulta.tpl');
+        $this->smarty->display('../view/jogador_consulta.tpl');
     }
 
 }
